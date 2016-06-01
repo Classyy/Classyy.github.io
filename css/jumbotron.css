@@ -232,8 +232,8 @@ div.col-md-4.sidebar{ /*extra selectors to stop defined height messing up  --- F
 		margin-bottom: 0px;
 	}
 	.container{ /*Larger page wrapper */
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
 	}
 	#custom-bootstrap-menu > div > div.collapse.navbar-collapse.navbar-menubuilder > ul > li{
 		margin-left: 15px;
