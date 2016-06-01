@@ -1,0 +1,263 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 50px;
+}
+.container{ /*Slimmer page wrapper */
+	padding-left: 100px;
+	padding-right: 100px;
+}
+/*Keep the navbar aligned after removal of menu name on left side*/
+.navbar-collapse {
+	padding-left: 0;
+	padding-right: 0;
+}
+h2{
+	color: #394753;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 24px;
+	font-weight: 400;
+	margin-top: 0px;
+}
+h3{ /*titles e.g. services pay now, our staff */
+	font-family: Lato, sans-serif;
+	font-weight: 700;
+    font-size: 26px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 0px;
+}
+h3.sidebar{/*add the bottom border */
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 18px;
+	font-weight: 400;
+	background: url("hr.png") repeat-x bottom;
+	margin-top: 0px;
+}
+h4{
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 26px;
+	font-weight: 400;
+	color: #394753;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+h4.sub{/*Sub headings for the contact page */
+	font-family: "Roboto Slab", sans-serif;
+    font-size: 16px;
+	font-weight: 400;
+	color: #394753;
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
+p{
+	color: #394753;
+	font-family: 'Roboto Slab', sans-serif;
+	font-family: Lato, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+}
+td:nth-child(1) {  
+	color: #394753;
+	font-family: Lato, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 25px;
+}
+tr{
+	color: #394753;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.footer-text p{
+	color: #BFC8D1;
+	font-family: Lato, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+}
+#custom-bootstrap-menu > div > div.collapse.navbar-collapse.navbar-menubuilder > ul > li:nth-child(1) > a {
+	padding-left: 0;
+
+}
+img.center { /*used to centre images quickly*/
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.title-wrap{
+	background: #445d70;
+	color: #FFFFFF;
+}
+.title-row{ /*For the titles on each page (except the homepage)*/
+	width: 100%;
+}
+.container-paddedY {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.contact-title {/*For the contact us top right*/
+	margin-top: 35px;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: right;
+	font-weight: 400;
+	font-family: Lato,sans-serif;
+	color: #6d7c88;
+}
+
+.contact-info {
+	line-height: 18px;
+	font-size: 18px;
+	color: #394753;
+	font-weight: 700;
+	color: #000000;
+}
+
+.lawyer-bg {
+	background: url(http://localhost/lawyeria_ll/wp-content/uploads/2015/05/law-and-logo.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.jumbotron .h1,.jumbotron h1 {
+	color: #fff;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	-moz-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	-webkit-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	-ms-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	line-height: 42px;
+	font-family: "Roboto Slab",sans-serif;
+	font-size: 36px;
+}
+
+.jumbotron .p,.jumbotron p {
+	margin-top: 13px;
+	color: #a8adb1;
+	line-height: 26px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	-moz-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	-webkit-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	-ms-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.slogan {
+	line-height: 42px;
+	color: #394753;
+	font-family: "Roboto Slab",sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+/* Feaures */
+.feature-bg {
+	width: 100%;
+	padding: 20px;
+	background: url(feature-bg.png);
+	box-shadow: 0 0 10px rgba(0,0,0,0.15) inset;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.15) inset;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.15) inset;
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.15) inset;
+}
+.features-box{
+	background: #FFFFFF;
+	padding: 20px 20px 5px 20px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+.features-box img{ /*Margin for the bottom of the icons*/
+	margin-bottom: 10px;
+}
+.features-box p{
+	font-size: 14px;
+	font-weight: 400;
+} 
+.feature-bg{
+	background: url("feature-bg.png");
+}/*sidebar */
+div.col-md-4.sidebar{ /*extra selectors to stop defined height messing up  --- FIXED for now*/
+	background: #EEEEEE;
+	/*height: 250px;*/
+}
+.sidebar p{
+	font-family: Lato, sans-serif;
+}
+.sidebar a{
+	text-decoration: none;
+	color: #276EB8;
+	font-weight: 400;
+}
+.sidebar a:hover{
+	text-decoration: underline;
+	color: #276EB8;
+}
+/*Our Staff*/
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+/* Footer */
+.footer {
+	background: #4a5c6b;
+	width: 100%;
+	padding: 20px;
+}
+.footer .title{
+    color: #fff;
+	font-family: 'Lato', sans-serif;
+    margin-bottom: 18px;
+    font-size: 24px;
+	line-height: 24px;
+	font-weight: 700;
+}
+.footer-text{
+	font-family: 'Lato', sans-serif;
+    color: #BFC8D1;
+	font-size: 14px;
+	line-height: 14px;
+}
+/*Begin media*/
+@media (max-width: 767px) {
+	.logo {
+		max-width: 100%;
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.logo {
+		max-width: 100%;
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.logo {
+		max-width: 205%;
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.logo {
+		max-width: 205%;
+		margin-bottom: 30px;
+	}
+}
