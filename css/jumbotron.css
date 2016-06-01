@@ -120,7 +120,7 @@ img.center { /*used to centre images quickly*/
 }
 
 .lawyer-bg {
-	background: url(http://localhost/lawyeria_ll/wp-content/uploads/2015/05/law-and-logo.jpg) no-repeat center center;
+	background: url(law-and-logo-min.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
