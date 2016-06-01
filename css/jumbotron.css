@@ -2,10 +2,6 @@
 body {
 	padding-top: 50px;
 }
-.container{ /*Slimmer page wrapper */
-	padding-left: 100px;
-	padding-right: 100px;
-}
 /*Keep the navbar aligned after removal of menu name on left side*/
 .navbar-collapse {
 	padding-left: 0;
@@ -77,10 +73,6 @@ tr{
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 14px;
-}
-#custom-bootstrap-menu > div > div.collapse.navbar-collapse.navbar-menubuilder > ul > li:nth-child(1) > a {
-	padding-left: 0;
-
 }
 img.center { /*used to centre images quickly*/
 	margin-left: auto;
@@ -239,12 +231,29 @@ div.col-md-4.sidebar{ /*extra selectors to stop defined height messing up  --- F
 		max-width: 100%;
 		margin-bottom: 0px;
 	}
+	.container{ /*Larger page wrapper */
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	#custom-bootstrap-menu > div > div.collapse.navbar-collapse.navbar-menubuilder > ul > li{
+		margin-left: 15px;
+	}
+	#custom-bootstrap-menu > div > div.collapse.navbar-collapse.navbar-menubuilder > ul > li:nth-child(1) > a {
+		padding-left: 15px;;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.logo {
 		max-width: 100%;
 		margin-bottom: 0px;
+	}
+	.container{ /*Slimmer page wrapper */
+	padding-left: 100px;
+	padding-right: 100px;
+	}
+	#custom-bootstrap-menu > div > div.collapse.navbar-collapse.navbar-menubuilder > ul > li:nth-child(1) > a {
+	padding-left: 0;
 	}
 }
 
@@ -253,11 +262,25 @@ div.col-md-4.sidebar{ /*extra selectors to stop defined height messing up  --- F
 		max-width: 205%;
 		margin-bottom: 30px;
 	}
+	.container{ /*Slimmer page wrapper */
+	padding-left: 100px;
+	padding-right: 100px;
+	}
+	#custom-bootstrap-menu > div > div.collapse.navbar-collapse.navbar-menubuilder > ul > li:nth-child(1) > a {
+	padding-left: 0;
+	}
 }
 
 @media (min-width: 1200px) {
 	.logo {
 		max-width: 205%;
 		margin-bottom: 30px;
+	}
+	.container{ /*Slimmer page wrapper */
+	padding-left: 100px;
+	padding-right: 100px;
+	}
+	#custom-bootstrap-menu > div > div.collapse.navbar-collapse.navbar-menubuilder > ul > li:nth-child(1) > a {
+	padding-left: 0;
 	}
 }
