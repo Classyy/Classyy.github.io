@@ -83,7 +83,8 @@ img.center { /*used to centre images quickly*/
 	margin-bottom: 0px;
 }
 .title-wrap{
-	background: #445d70;
+	/*background: #445d70;*/
+	background: rgb(38, 50, 59);
 	color: #FFFFFF;
 }
 .title-row{ /*For the titles on each page (except the homepage)*/
